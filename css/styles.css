@@ -1,0 +1,98 @@
+html, body, * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    display: flex;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ol, ul {
+    padding-left: 25px;    
+}
+
+li {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.iconesMenu {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.iconesMenu:hover {
+    color: rgb(3, 3, 3);
+}
+
+.fotoPerfil {
+    width: 200px;
+    border-radius: 70%;
+    margin: 10px;
+}
+
+.menuStyle {
+    height: 100vh;
+    width: 25vmax;
+    background-color: rgb(89, 89, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoStyle {
+    height: 100vh;
+    width: 75vmax;
+    padding-left: 25px;
+    background-color: rgb(230, 227, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.indexNome {
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.mailto {
+    text-decoration: none;
+}
+
+.emailIcon {
+    width: 20px;
+}
+
+.colorLightSlateGray {
+    color: rgb(89, 89, 93);
+}
+
+.indexDescricao {
+    font-size: 20px;
+}
+
+.redesSociais {
+    width: 40px;
+}
+
+.iconesRedes {
+    margin-right: 10px;
+}
+
+.marginBottom-50px {
+    margin-bottom: 50px;
+}
+
+.fontSize-35px {
+    font-size: 35px;
+}
